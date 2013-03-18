@@ -1,0 +1,97 @@
+body{
+	background: -webkit-linear-gradient(top, #b5c1e1 60%, #7c9df1); 
+	/* Firefox 3.6+ */ background: -moz-linear-gradient(top, #b5c1e1, #7c9df1); 
+	/* IE 10 */ background: -ms-linear-gradient(top, #b5c1e1, #7c9df1); 
+	/* Opera 11.10+ */ background: -o-linear-gradient(top, #b5c1e1, #7c9df1);
+}
+
+#bungkus{
+	width:100%;
+	height:100%;
+}
+
+#header{
+	height:30px;
+	width:605px;
+	padding:10px;
+	background:-moz-linear-gradient(right, #e1e1e1, #fff 50%, #e1e1e1);
+	background:-webkit-linear-gradient(right, #e1e1e1, #fff 50%, #e1e1e1);
+	background:-o-linear-gradient(right, #e1e1e1, #fff 50%, #e1e1e1);
+	margin-bottom:10px;
+	border-radius:7px;
+	border: 5px solid #000;
+	}
+#form_data{
+	width:605px;
+	height:500px;
+	padding:10px;
+	border:1px solid #999;
+	border-radius:7px;
+	font-family:Verdana;
+	font-size:14px;
+	margin-bottom:10px;
+	background:-moz-linear-gradient(right, #e1e1e1, #fff 50%, #e1e1e1);
+	background:-webkit-linear-gradient(right, #e1e1e1, #fff 50%, #e1e1e1);
+	background:-o-linear-gradient(right, #e1e1e1, #fff 50%, #e1e1e1);
+}
+
+#form_data_kiri{
+	width:200px;
+	height:500px;
+	float:left;
+	border:1px solid #999;
+}
+
+#form_data_kanan{
+	width:400px;
+	height:500px;
+	float:left;
+	border:1px solid #999;
+}
+/*#gambar{
+	float:left;
+	width:200px;
+	height:300px;
+}*/
+#form_data_kanan input[type=text]{
+	height:20px;
+	width:300px;
+	padding:5px;
+	background:#7078c3;
+	color:#eee;
+	border:1px solid #aaa;
+	border-radius:7px;
+	font-family:Tahoma;
+	font-size:13px;
+}
+
+#form_data_kanan textarea{
+	height:70px;
+	width:300px;
+	padding:5px;
+	background:#7078c3;
+	color:#eee;
+	border:1px solid #aaa;
+	border-radius:7px;
+	font-family:Tahoma;
+	font-size:13px;
+}
+
+#form_data_kanan input[type=submit],input[type=reset]{
+	width:100px;
+	height:35px;
+	padding:3px;
+	color:#fff;
+	background:#7e7199;
+	border:1px solid #7e7199;
+	border-radius:15px;
+	cursor:pointer;
+	font-family:Tahoma;
+	font-size:13px;
+}
+
+#isi{
+	height:30px;
+	padding:10px;
+}
+
